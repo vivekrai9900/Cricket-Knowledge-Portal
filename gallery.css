@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+
+
+
+/* Navbar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav .links{
+    
+    margin-right: 30px;
+}
+
+.container-nav .logo{
+    margin-left: 20px;
+  
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.links ul li:first-child {
+    margin-left: 0;
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conv-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.convenors{
+    display: flex;
+    flex-direction: row;
+    /* border: solid black; */
+
+}
+
+.card-text{
+    margin-top: 40px;
+    font-size: large;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.card-video {
+    width: 100%; /* Set the video width to 100% of the card's width */
+    height: 350px; /* Maintain the aspect ratio of the video */
+    max-height: 100%; /* Set the maximum height of the video to fit inside the card */
+    overflow: hidden;
+}
+
+
+
+
+/* Styling for headings and other elements can be added as needed */
